@@ -1,0 +1,406 @@
+/*******************************************************************************************
+		MIT OpenCourseWare
+		http://ocw.mit.edu/
+	
+		sitehome.css - styles unique to the site home page
+		v0.3
+		6 August 2012
+********************************************************************************************/
+
+
+#slider {
+	width: 952px;
+	height: 332px;
+	margin: 0px;
+}
+#slider li {
+	float:left;
+	height: 328px;
+	width:100%;
+	height: 332px;
+}
+
+#home_rotator {
+	height: 332px;
+	min-width: 952px;
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+	border-bottom: 3px solid black;
+	margin: 0;
+}
+
+#home_rotator ul.slider li div {
+	margin: 0;
+	padding: 0;
+}
+
+.frame{	
+	background-position: top center; 
+	background-repeat: no-repeat; 
+	display: none;
+	top: 0px;
+	height:100%;
+}
+
+.frame1 {
+	
+	background-repeat: no-repeat;
+	background-position: top center;
+	height:100%;
+}
+
+.frame2 {
+	
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.frame3 {
+	
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.frame4 {
+	
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.frame5 {
+	
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+#home_rotator p.headline {
+	color: #fff;
+	font-family: TitilliumWeb400Regular, Arial, Helvetica, sans-serif;
+	line-height: 1.2em;
+	font-size: 3.5em;
+	width: 500px;
+	padding: 10px 0 10px 20px;
+	margin-top: -30px;
+	text-shadow: 0px 2px 3px #000;
+}
+
+#home_rotator p {
+	font-family: TitilliumWeb400Regular, Arial, Helvetica, sans-serif;
+	line-height: 1.2em;
+	color: #ff9000;
+	font-size: 2.0em;
+	margin-left: 40px;
+	text-shadow: 0px 2px 3px #000;
+}
+
+#home_rotator p.more {
+	width: 400px;
+	position: relative;
+	top: 255px;
+	left: 20px;
+	margin-bottom: -10px;
+	padding: 8px;
+}
+
+#home_rotator p.more a,
+#home_rotator p.more a:visited {
+	color: #ff9000;
+	text-decoration: none;
+}
+
+#home_rotator p.more a:hover,
+#home_rotator p.more a:active {
+	color: #b30838;
+	text-decoration: underline;
+}
+ 
+.shade {
+	background-color: transparent;
+	background-color: rgba(0, 0, 0, 0.3);	/* FF3+, Saf3+, Opera 10.10+, Chrome, IE9 */
+	zoom: 1;
+	border-radius: 12px; 					/* Opera 10.5, IE9, Saf5, Chrome, FF4+, iOS 4, Android 2.1+ */
+	-webkit-border-radius: 12px; 			/* Saf3-4, iOS 1-3.2, Android ≤1.6 */
+	-pie-background: rgba(0,0,0,0.3);
+}
+
+.shade2 {
+/*	background-color: transparent; */
+	background-color: rgba(0, 0, 0, 0.5);	/* FF3+, Saf3+, Opera 10.10+, Chrome, IE9 */
+	zoom: 1;
+	border-radius: 9px; 					/* Opera 10.5, IE9, Saf5, Chrome, FF4+, iOS 4, Android 2.1+ */
+	-webkit-border-radius: 9px; 			/* Saf3-4, iOS 1-3.2, Android ≤1.6 */
+	-pie-background: rgba(0,0,0,0.5);
+}
+
+#home_rotator p.more .shade,
+#home_rotator p.more .shade2 {
+	padding: 10px;
+}
+
+
+#home_rotator p.credit {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	color: #fff;
+	text-shadow: none;
+	font-weight: normal;
+	letter-spacing: normal;
+	padding: 5px 10px;
+	position: relative;
+	width: 300px;
+	left: 740px;
+	top: 125px;
+	left: 891px\9;						/* IE-only fix */
+	top: 266px\9;						/* IE-only fix */
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+	transform: rotate(270deg);
+	writing-mode: lr-bt ;
+	-pie-background: rgba(0,0,0,0.5);
+	
+	/* IE8 and IE6-7 rotated credit fix below - DO NOT EDIT, DO NOT CHOP NEXT LINE TO MULTIPLE LINES */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=6.123233995736766e-17, M12=1, M21=-1, M22=6.123233995736766e-17, SizingMethod='auto expand')";
+	-ms-transform-origin: 50% 0;
+	filter: progid:DXImageTransform.Microsoft.Matrix(
+            M11=6.123233995736766e-17,
+            M12=1,
+            M21=-1,
+            M22=6.123233995736766e-17,
+            SizingMethod='auto expand'); 
+/* end fix */
+}
+
+
+
+#home_rotator p.credit a,
+#home_rotator p.credit a:visited,
+#home_rotator p.credit a:hover,
+#home_rotator p.credit a:active {
+	color: #fff;
+	text-decoration: underline;
+}
+
+#support {
+	height: 88px;
+	min-width: 958px;
+	background-image:url(../images/images-bg_support.png);
+}
+
+#support-c1,
+#support-c2,
+#support-c3 p {
+	color: #fff;
+}
+
+#support-c1 {
+	min-height: 88px;
+}
+
+#support-c1 p {
+	font-family: TitilliumWeb400Regular, Arial, Helvetica;
+	font-size: 2em;
+	color: #fff;
+	letter-spacing: 0.5px;
+	font-weight: 400;
+	text-shadow: 0px 2px 3px #000;
+	margin-top: -5px;
+	padding-top: 0px;
+	margin-left: 25px;
+	margin-right: -10px;
+	position: relative;
+	top: 26px;
+}
+
+#support-c2 {
+	margin-top: 14px;
+	margin-right: 0px;
+}
+
+#support-c3 {
+	margin-top: 9px;
+	margin-right: 20px;
+}
+
+#support-c3 p {
+	padding-left: 88px;
+	padding-top: 12px;
+	width: 160px;
+}
+
+#support-c3 img.supportPhoto {
+	 float: left;
+}
+
+#support-c3 .supportByline {
+	 font-size: 0.9em;
+}
+
+#support-c4 {
+	padding-top: 26px;
+}
+
+#support-c4 img {
+	margin-right: 15px;
+	float: right;
+}
+
+#course_rotator_home {
+	min-height: 568px;
+	margin-top: 20px;
+}
+
+#right_side {
+	min-height: 568px;
+	margin-left: 25px;
+}
+
+#right_side p {
+	font-size: 1.2em;
+	line-height: 1.6em;
+	width: 286px;
+	padding-top: 23px;
+	margin-bottom: 0;
+}
+
+#inset {
+	width: 650px;
+}
+
+.inset_button {
+	float: right;
+	margin-top: 28px;
+}
+
+#news {
+	min-height: 321px;
+	max-width: 283px;
+	margin: 22px 0;
+	padding-right: 22px;
+	border-right: 1px solid #d5c9ba;
+}
+
+#news ul {
+	border-top: 1px solid #d5c9ba;
+	margin-top: 12px;
+	list-style-type: none;
+	margin-left: 0;
+}
+
+li.news {
+	border-bottom: 1px solid #d5c9ba;
+	padding: 9px 11px 11px 22px;
+	text-indent: -1em;
+	font-weight: bold;
+}
+
+li.news:before {
+	content: '»';
+	font-size: 1.3em;
+	color: #ff9000;
+	margin-right: 5px;
+	position: relative;
+}
+
+li.news a,
+li.news a:visited {
+	color: #333;
+	text-decoration: none;
+	position: relative;
+}
+
+li.news a:hover,
+li.news a:active {
+	color: #b30838;
+	text-decoration: underline;
+}
+
+
+#meet {
+	min-height: 321px;
+	max-width: 285px;
+	margin: 22px 0 22px 22px;
+}
+
+#home_ad {
+	border-top: thin solid #d5c9ba;
+	padding-top: 10px;
+	margin-top: 62px;
+}
+
+
+/* professor profile styles */
+
+ul.prof { 
+	margin: 11px 0 20px 0;
+	list-style-type: none;
+	float: left;
+	border-top: 1px solid #d5c9ba;
+	border-bottom: 1px solid #d5c9ba;	
+	padding: 7px 0 7px 0;
+	width: 285px;
+}
+
+ul.prof li { 
+	display: inline;
+}
+
+ul.prof li a { 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	background-color: none;
+	color: #999;
+	text-decoration: none;
+	padding: 6px 11px;		/* 2nd value may change due to Prof name total length in order to take up full row.
+							lower number if names are wrapping, increase number if there is empty space at right */
+	position: relative;
+}
+
+ul.prof li a:hover,
+ul.prof li a.selected:hover {
+	background-color: #ad0e2d;
+	color: #fff;
+	border-radius: 8px;
+}
+
+ul.prof li a.selected {
+	background-color: #ad0e2d;
+	color: #fff;
+	border-radius: 8px;
+}
+
+ul.prof li a.selected:after {
+	content: ' ';
+	height: 0;
+	position: absolute;
+	width: 0;
+	border: 6px solid transparent;
+	border-top-color: #ad0e2d;
+	top: 100%;
+	left: 50%;
+	margin-left: -3px;
+}
+ 
+#pro2,
+#pro3 {
+	display: none;
+}
+
+.profile p img {
+	margin: 0 12px 75px 4px;
+	float: left;
+	border: 1px solid #000;
+}
+
+.profile p {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.profile p.quote {
+	color: #999;
+	font-size: 1.3em;
+	font-weight: normal;
+	margin-bottom: 0;
+}
+
